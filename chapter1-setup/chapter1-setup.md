@@ -18,7 +18,6 @@ Setup a foundational enterprise-like structure in Azure using:
 | rg-compute-belgium    | VMs, VMSS | West Europe       |             |
 | rg-storage-belgium    | Blobs, queues, backup         | West Europe |
 
-![RG Screenshot](./screenshots/rg-creation.png)
 
 ---
 
@@ -39,9 +38,6 @@ Setup a foundational enterprise-like structure in Azure using:
 | Network Engineer    | DevOps-Engineer   |
 | Monitoring Operator | Support-Desk      |
 
-Screenshots:
-- ![User Creation](./screenshots/user-creation.png)
-- ![RBAC Assignment](./screenshots/rbac-assignment.png)
 
 ---
 
@@ -59,6 +55,4 @@ Applied a **Delete lock** on `rg-management-belgium` to prevent accidental remov
 
 ---
 
-## 📁 Files
 
-- Architecture Diagram: [rg-structure.drawio](../architecture/rg-structure.drawio)
