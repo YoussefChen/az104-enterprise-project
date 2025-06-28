@@ -5,13 +5,13 @@ Create a tiered virtual network with secure subnet segmentation, internal access
 
 ## Subnet Structure
 
-| Subnet Name         | Address Range   | Purpose       |
-|---------------------|-----------------|---------------|
-| web-subnet          | 10.10.1.0/24    | Frontend VMs  |
-| app-subnet          | 10.10.2.0/24    | Backend VMs   |
-| db-subnet           | 10.10.3.0/24    | SQL, storage  |
-| mgmt-subnet         | 10.10.4.0/24    | Secure access |
-| AzureBastionSubnet  | 10.10.5.0/24    | Secure access |
+| Subnet Name         | Address Range  | Purpose       |
+|---------------------|----------------|---------------|
+| web-subnet          | 10.0.1.0/24    | Frontend VMs  |
+| app-subnet          | 10.0.2.0/24    | Backend VMs   |
+| db-subnet           | 10.0.3.0/24    | SQL, storage  |
+| mgmt-subnet         | 10.0.4.0/24    | Secure access |
+| AzureBastionSubnet  | 10.0.5.0/24    | Secure access |
 
 ## NSGs and ASGs
 
